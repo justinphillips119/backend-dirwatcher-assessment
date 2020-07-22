@@ -16,7 +16,6 @@ logger = logging.getLogger(__file__)
 files = {}
 
 
-
 def signal_handler(sig_num, frame):
     """
     This is a handler for SIGTERM and SIGINT. Other signals can be mapped here as well (SIGHUP?)
