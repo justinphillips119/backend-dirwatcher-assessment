@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 __author__ = "Justin Phillips"
+#adding this line because I forgot to make a dev branch and need to add to the file lol
 
 import signal
 import time
@@ -14,7 +15,6 @@ import argparse
 exit_flag = False
 logger = logging.getLogger(__file__)
 files = {}
-
 
 
 def signal_handler(sig_num, frame):
